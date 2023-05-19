@@ -1,0 +1,22 @@
+html  {
+    font-size: 22px;
+}
+
+body {
+    background-color: Lavender;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: blue;
+}
+
+/*This color will be shown after the link was clicked*/
+a:visited {
+    color: purple;
+}
+
+/*This color will be shown when the mouse is over the link*/
+a:hover , a:active {
+    color: black;
+}
