@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="author" content="Ayush Raina">
+        <meta name="description" content="This Page contains basic details about my machine learning project">
+        <link rel="icon" href="html5.png" type="image/x-icon">
+        <link rel="stylesheet" href="lesson9.css">
+        <title>MLproject</title>
+
+
+
+    </head>
+
+    <body>
+        <header>
+
+            <nav aria-label="primary-navigation">
+                <ul>
+                    <li><a href="intro9.html">Project Introduction</a></li>
+                    <li><a href="about9.html">About me</a></li>
+                    <li><a href="datasets9.html">Datasets</a></li>
+
+                </ul>
+
+    </header>
+
+        <h1>Require Teammates</h1>
+        <p>I'd really like to hear from you!</p>
+
+
+        <form action="mailto:ayushraina@iisc.ac.in" method = "POST">
+            <fieldset>
+                <legend>Personal INFO</legend>
+                <p>
+
+                    <!--required is used to give popup that detail is required -->
+
+                    <!--first name-->
+                    <label for="first name">First Name :</label>
+                    <input type = "text" name = "first name" required  id = "fname" 
+                    placeholder = "Enter first name" autocomplete="on">                
+                </p>
+
+                <p>
+                    <!--last name-->
+                    <label for = "last name">Last name : </label>
+                    <input type = "text" name = "last name" required id = "lname"
+                    placeholder = "Enter last name" autocomplete="on">
+                </p>
+
+                <!--email-->
+                <p>
+                    <label for = "email">Email : </label>
+                    <input type = "email" name = "email" required id = "email"
+                    placeholder = "Enter email" autocomplete="on">
+                </p>
+
+                <!--password-->
+                <p>
+                    <label for = "password">Password : </label>
+                    <input type = "password" name = "password" required id = "password"
+                    placeholder = "Enter password" autocomplete="on">
+
+                </p>
+
+                <p>
+                    <label for = "skillset">Skillset : </label>
+                    <select name = "skillset" id = "skillset">
+
+                        <optgroup label = "Web Dev">
+                            <option value = "wbeginner">Beginner</option>
+                            <option value = "wintermediate">Intermediate</option>
+                            <option value = "wexpert">Expert</option>
+                        </optgroup>
+                        <optgroup label = "Data Science">
+                            <option value = "dbeginner">Beginner</option>
+                            <option value = "dintermediate">Intermediate</option>
+                            <option value = "dexpert">Expert</option>
+                        </optgroup>
+                        <option value = "other">Other</option>
+                </p>
+                     </select>
+                </fieldset>
+
+            <button type = "submit" formaction="mailto:ayushraina@iisc.ac.in"
+            formmethod = "post">Submit</button>
+            <button type = "reset">Reset</button>
+
+
+        </form>
+    </body>
+</html>
